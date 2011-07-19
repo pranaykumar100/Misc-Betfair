@@ -1,2 +1,36 @@
-Some basic scripts for mucking about with the Betfair API
+Some basic tools for mucking about with the Betfair API. 
+
+
+Betfair.Net 
+
+C# and F# utility code for applications using the Betfair API. The C# 
+project includes some handy extension methods and tools for working with 
+compressed market data. The F# project includes async tools for 
+conveniently batching up or sequencing requests (for example retrieving 
+the Match Odds market for all upcoming Premiership games). 
+
+
+BFCompressedParser 
+
+Classes for working with compressed market data. Basically the same as 
+can be found in the Betfair.Net project so will soon be removed. 
+
+
+pybetfair.py 
+
+Simple python wrapper for the Betfair API, since the python SOAP tools 
+can be twitchy with the Betfair WSDL. 
+
+
+sniperdemo.py 
+
+Simple example app demonstrating pybetfair.py. Can be used to monitor a 
+market for underrounds and place green-book bets when an opportunity is 
+detected. 
+
+
+BetfairSoccer.user.js 
+
+Greasemonkey script that augments the BBC News sport pages with Betfair 
+market data. 
 
