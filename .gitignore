@@ -1,0 +1,17 @@
+*.dll
+*.exe
+
+*.suo
+*.user
+*.pdb
+
+# ReSharper meta directory
+_ReSharper*
+*.resharper
+
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+
+# mstest test results
+TestResults
